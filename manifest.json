@@ -1,7 +1,7 @@
 {
   "id": "/?home=true",
-  "name": "WPI",
-  "short_name": "WPI",
+  "name": "PWA Example",
+  "short_name": "PWA Example",
   "start_url": "/?home=true",
   "theme_color": "#fff",
   "background_color": "#333",
