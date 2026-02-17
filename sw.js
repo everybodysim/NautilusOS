@@ -1,8 +1,20 @@
-// This is the bare minimum service worker
-self.addEventListener("install", (event) => {
-  console.log("WPI Service Worker installed");
+self.addEventListener("install", event => {
+  event.waitUntil(
+    caches.open("v1").then(cache => {
+      return cache.addAll([
+        "/",
+        "/index.html",
+        "/style.css",
+        "/script.js"
+      ]);
+    })
+  );
 });
 
-self.addEventListener("fetch", (event) => {
-  // Logic for offline support goes here later
+self.addEventListener("fetch", event => {
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      return response || fetch(event.request);
+    })
+  );
 });
