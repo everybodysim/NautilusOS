@@ -1,0 +1,26 @@
+{
+  "name": "NautilusOS Browser",
+  "short_name": "NautilusOS",
+  "description": "NautilusOS Browser Progressive Web App",
+
+  "start_url": "/",
+  "scope": "/",
+
+  "display": "standalone",
+
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
