@@ -1,5 +1,5 @@
 // CHANGE THIS every time you update site files
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 
 // Unique cache name
 const CACHE_NAME = 'nautilus-cache-' + CACHE_VERSION;
