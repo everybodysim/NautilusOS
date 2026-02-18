@@ -5445,7 +5445,7 @@ alt="favicon">
                       </h4>
                       <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: flex-start;">
                         <div style="flex-shrink: 0;">
-                          <img src="/assets/LFPaymentMonero.png" alt="XMR QR Code" style="width: 100px; height: 100px; border-radius: 8px; background: white; padding: 4px;">
+                          <img src="assets/LFPaymentMonero.png" alt="XMR QR Code" style="width: 100px; height: 100px; border-radius: 8px; background: white; padding: 4px;">
                         </div>
                         <div style="flex: 1; min-width: 200px;">
                           <p style="color: var(--text-secondary); font-size: 0.8rem; margin-bottom: 0.5rem;">Monero Address:</p>
@@ -5664,7 +5664,7 @@ print(f'Sum: {sum(numbers)}')
         }
         return `
         <div class="browser-container" style="overflow: hidden;">
-                      <iframe src="/app/uv.html" frameborder="0" style="width: 100%; height: 100vh; border-radius: 0px; margin: 0;"></iframe>
+                      <iframe src="app/uv.html" frameborder="0" style="width: 100%; height: 100vh; border-radius: 0px; margin: 0;"></iframe>
               </div>
       `;
       })(),
@@ -5715,7 +5715,7 @@ print(f'Sum: {sum(numbers)}')
                     <p>Load times may vary</p>
                     </center>
                   </div>
-                  <iframe src="/uv/service/hvtrs8%2F-vqcmdg.fet%2F" frameborder="0" style="width: 100%; height: 100vh; border-radius: 0px; margin: 0;"></iframe>
+                  <iframe src="uv/service/hvtrs8%2F-vqcmdg.fet%2F" frameborder="0" style="width: 100%; height: 100vh; border-radius: 0px; margin: 0;"></iframe>
               </div>
       `;
       })(),
@@ -5738,7 +5738,7 @@ print(f'Sum: {sum(numbers)}')
         }
         return `
         <div class="browser-container" style="overflow: hidden;">
-                      <iframe src="/app/helios.html" frameborder="0" style="width: 100%; height: 100vh; border-radius: 0px; margin: 0;"></iframe>
+                      <iframe src="app/helios.html" frameborder="0" style="width: 100%; height: 100vh; border-radius: 0px; margin: 0;"></iframe>
               </div>
       `;
       })(),
