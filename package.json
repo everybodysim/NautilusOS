@@ -1,0 +1,7 @@
+{
+"name": "nautilusosbrowser",
+"type": "module",
+"scripts": {
+"build": "mkdir -p dist && cp index.html dist/ && cp -r js dist/ && cp style.css dist/"
+}
+}
