@@ -8041,14 +8041,14 @@ function uninstallTheme(themeName) {
 }
 
 const themeDefinitions = {
-  dark: { url: "/style.css" },
-  light: { url: "/themes/light.css" },
-  golden: { url: "/themes/golden.css" },
-  red: { url: "/themes/red.css" },
-  blue: { url: "/themes/blue.css" },
-  purple: { url: "/themes/purple.css" },
-  green: { url: "/themes/green.css" },
-  liquidGlass: { url: "/themes/lg.css" },
+  dark: { url: "style.css" },
+  light: { url: "themes/light.css" },
+  golden: { url: "themes/golden.css" },
+  red: { url: "themes/red.css" },
+  blue: { url: "themes/blue.css" },
+  purple: { url: "themes/purple.css" },
+  green: { url: "themes/green.css" },
+  liquidGlass: { url: "themes/lg.css" },
 };
 
 function applyTheme(themeName) {
